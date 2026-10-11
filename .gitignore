@@ -1,0 +1,19 @@
+# 导出产物（含私人聊天内容，绝对不要提交到仓库）
+*_聊天记录*
+*_聊天记录_媒体/
+_wxwork/
+_wxchat_summary.json
+
+# 密钥与密钥缓存（属于个人机密）
+emoji_key.json
+all_keys.json
+*_keys.json
+
+# 解密后的数据库中间产物
+*.db-wal
+*.db-shm
+wxchat_work/
+
+# Python
+__pycache__/
+*.pyc
